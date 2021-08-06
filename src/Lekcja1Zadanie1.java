@@ -8,14 +8,11 @@ public class Lekcja1Zadanie1 {
 
         if (wiek <= 12) {
             System.out.println("Człowiek jest dzieckiem");
-        }
-        else if (wiek <= 40) {
+        } else if (wiek <= 40) {
             System.out.println("Człowiek jest młody");
-        }
-        else if (wiek <= 60) {
+        } else if (wiek <= 60) {
             System.out.println("Człowiek jest w średnim wieku");
-        }
-        else if (wiek > 60) {
+        } else {
             System.out.println("Człowiek jest stary");
         }
     }
